@@ -12,5 +12,27 @@
     "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
     "path": "^0.12.7"
-  }
+  },
+  "name": "aws-cloudfront-signer",
+  "version": "1.0.0",
+  "description": "Sample Typescrtipt application to create CloudFront Signed Url",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliarms/cloudfront-signer.git"
+  },
+  "keywords": [
+    "aws",
+    "cloudfront",
+    "signedurl"
+  ],
+  "author": "ELIASON-ARMSTRONG EMMANUEL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliarms/cloudfront-signer/issues"
+  },
+  "homepage": "https://github.com/eliarms/cloudfront-signer#readme"
 }
