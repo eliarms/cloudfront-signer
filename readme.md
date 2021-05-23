@@ -3,7 +3,8 @@ A Typescrtipt utility to create an AWS CloudFront Signed Url
 
 This project creates a `CloudFront` Signed Url based on a custom policy which allows access to specific files on the CloudFront distribution.
 
-The Policy is generated using a combination paramteters defined in a .`env` file the policy expire after a set amount of time and grant access to all files matching a predifined  `PATTERN`
+The Policy is generated using a combination of paramteters defined in a .`env` file.
+The policy expire after a set amount of time and grant access to all files matching a predifined  `PATTERN`
 
 The lifetime of the policy depends on the `EXPIRY` Timestamp defined in an environment variable:
 
